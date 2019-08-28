@@ -1,5 +1,5 @@
 # IndicNLPParser
-IndicNLPParser
+Indic NLP Unique Words
 
 Program is meant to get unique list of words and the frequency in which it has occurred in Wikipedia. 
 
