@@ -17,3 +17,7 @@ Program is meant to get unique list of words and the frequency in which it has o
 12. Output from the program will be written into a csv file 
 
 
+## Previous Work 
+
+T Shrinivasan has done some earlier work on this area 
+https://github.com/tshrinivasan/tamil-wikipedia-word-list
