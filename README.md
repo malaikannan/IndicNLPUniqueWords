@@ -21,3 +21,9 @@ Program is meant to get unique list of words and the frequency in which it has o
 
 T Shrinivasan has done some earlier work on this area 
 https://github.com/tshrinivasan/tamil-wikipedia-word-list
+
+Muthunedumaran of Murasu Anjal fame has a bash script to do it one line 
+
+bzcat archive.bz2 | grep -v '<[a-z]*\s' | grep -v '&[a-z0-9]*;' | tr '[:punct:][:blank:][:digit:]' '\n' | tr 'A-Z' 'a-z' | tr 'ÆØÅŜĴĤĜŬ' 'æøåŝĵĥĝŭ' | uniq | sort -f | uniq -c | sort -nr | head -50000 | tail -n +2 | awk '{print "<w f=\""$1"\">"$2"</w>"}' > dict.xml * Or for output without accents characters: bzcat archive.bz2 | grep -v '<[a-z]*\s' | grep -v '&[a-z0-9]*;' | tr '[:punct:][:blank:][:digit:]' '\n' | tr 'A-Z' 'a-z' | uniq | grep -o '^[a-z]*$' | sort -f | uniq -c | sort -nr | head -50000 | awk '{print "<w f=\""$1"\">"$2"</w>"}' > en.xml
+
+https://code.google.com/archive/p/softkeyboard/wikis/BinaryDictionaries.wiki?fbclid=IwAR0efckl3qpqeRBuAK9pc7MGZx1ZcFjgcdHa_FIRStLf46fEiAYo3pl8kjg
