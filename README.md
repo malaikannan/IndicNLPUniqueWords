@@ -9,7 +9,7 @@ Program is meant to get unique list of words and the frequency in which it has o
 4. Clone Attardi Wiki Extractor Tool https://github.com/attardi/wikiextractor
 5. An example on how to run WikiExtractor python3 WikiExtractor.py -o /Users/malaikannan/Documents/Work/opensource/TamilData /Users/malaikannan/Documents/Work/opensource/tawiki-latest-pages-articles.xml
 6. Clone the IndicNLPParser repo 
-7. To run python3 wikiparser.py --wiki_dump_path "/Users/malaikannan/Documents/Work/opensource/TamilData" --csv_file_path "/Users/malaikannan/Documents/Work/opensource/TamilData/tamil_words.csv" --lower_unicode_value 2944 --upper_unicode_value 3071 
+7. To run python3 wikiparser.py --wiki_dump_path "/home/ANANT/msankarasubbu/Documents/Work/opensource/Data" --csv_file_path "/home/ANANT/msankarasubbu/Documents/Work/opensource/Data/tamil_words.csv"  --bloomfilter_file_path "/home/ANANT/msankarasubbu/Documents/Work/opensource/Data/tamil_words_filter.txt" --lower_unicode_value 2944 --upper_unicode_value 3071 
 8. lower_unicode_value and upper_unicode_value are Decimal values
 9. For Tamil lower_unicode_value = 2944 and upper_unicode_value = 3071
 10. For Telugu lower_unicode_value = 3072 and upper_unicode_value = 3199
