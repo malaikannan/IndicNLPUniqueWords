@@ -12,8 +12,7 @@ class wikiparser:
         self.bloomfilter_file_path = bloomfilter_file_path
         self.lower_unicode_value = lower_unicode_value
         self.upper_unicode_value = upper_unicode_value
-        print(self.lower_unicode_value)
-        print(self.upper_unicode_value)
+
 
     @classmethod
     def is_tamil(self,word,lower_unicode_value,upper_unicode_value):
@@ -42,10 +41,8 @@ class wikiparser:
         self.dict_tamil_word = {}
 
         for root, dirs, files in os.walk(self.wiki_dump_path):
-            print('Found directory: %s' % root)
             for file in files:
                 if "wiki" in file:
-                    print("processing file",file)
                     with open(os.path.join(root,file),'r') as xml_file:
                         for line in xml_file.readlines():
                             line = re.sub("[!@#$%&*.,<>:;|]", '', line)
