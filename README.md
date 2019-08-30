@@ -15,6 +15,8 @@ Program is meant to get unique list of words and the frequency in which it has o
 10. For Telugu lower_unicode_value = 3072 and upper_unicode_value = 3199
 11. For Malaylam lower_unicode_value = 3328 and upper_unicode_value = 3455
 12. Output from the program will be written into a csv file 
+13. Tamil bloomfilter file https://www.dropbox.com/s/3bibyzccjkdkh86/tamil_words_filter.txt?dl=0
+14. Telugu bloomfilter file https://www.dropbox.com/s/qdc0a7ueqowyw2z/telugu_words_filter.txt?dl=0
 
 
 ## Previous Work 
