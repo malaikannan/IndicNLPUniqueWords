@@ -41,6 +41,10 @@ https://7b2c652e.ngrok.io/indicnlp/malayalam/v1.0/ഭക്ഷണം
 ### Bengali 
 https://7b2c652e.ngrok.io/indicnlp/bengali/v1.0/খাদ্য
 
+### Negative Test 
+https://7b2c652e.ngrok.io/indicnlp/tamil/v1.0/hello
+
+
 
 
 ## Previous Work 
